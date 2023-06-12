@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(248, 238, 248);
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+header {
+    background-color: rgb(228, 222, 222);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+.header-banner{
+    width: 100vw;
+    margin: auto;
+}
+
+#cabeza nav ul li a {
+    font-size: 30px;
+    color: rgb(36, 34, 34);
+    text-decoration: none;
+    margin: 20px;
+}
+#cabeza nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+       
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(36, 34, 34); 
+    margin-top: 5%;
+
+}
+.subtitulos{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    color: rgb(36, 34, 34)
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(36, 34, 34)
+}
+
+footer{
+    background-color: rgb(228, 222, 222);
+    text-align: center;
+    margin-top: 100px ;
+    padding: 30px;
+}
+
+#principal a{
+    background-color: rgb(51, 39, 51);
+    color: white;
+    padding: 10px 20px;
+    margin: 20px auto;
+    width: 300px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.parrafos{
+    background-color: rgb(209, 179, 236);
+    text-align: center;
+    color: rgb(36, 34, 34);
+    margin: 5px;
+    width: 100%;
+    padding: 5px;
+    font-size: x-large;
+}
+.parrcenter{
+    text-align: center;
+    color: rgb(36, 34, 34)
+}
+
+.fotosregalos a{
+    padding: 10px;
+    margin: 0;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    bottom: 0;
+    margin:  20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(156, 151, 161, 0.5);
+    z-index: 0;   
+}
+
+.parrmar{
+    margin-top: 30px;
+}
+.col-lg-4{
+    padding: 5px;
+}
+
+iframe{
+    padding-top: 15px;
+}
+
+.aquiestoy{
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    .pruebarev {
+      flex-direction: column-reverse 
+    }
+  }
+
+.img-chica{
+    width: 50px;
+    height: 50px;
+}
