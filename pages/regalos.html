@@ -18,35 +18,80 @@
 </head>
 <body>
     <header id="cabeza">
-        <a href="../index.html"><img src="../img/L+Apequeñologo.png" alt=""></a>
-        <nav>
-            <ul>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./proveedores.html">Proveedores</a></li>
-                <li><a class="aquiestoy" href="./regalos.html">Regalos</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navmia">
+            <div class="container-fluid navcolor">
+              <a class="navbar-brand" href="../index.html"><img src="../img/L+Apequeñologo.png" alt="logochico"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                  <a class="nav-link colorhover" href="./nosotros.html">Nosotros</a>
+                  <a class="nav-link colorhover" href="./galeria.html">Galeria</a>
+                  <a class="nav-link colorhover" href="./proveedores.html">Proveedores</a>
+                  <a class="nav-link colorhover aquiestoy" href="./regalos.html">Regalos</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <h1>REGALOS</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit placeat laborum ea repellendus, magni incidunt id neque perferendis, rem possimus hic exercitationem ipsa quo magnam beatae in quasi, libero itaque esse. Ipsum veritatis aut ex! Maxime porro rerum eius aut, maiores qui asperiores sequi reiciendis, in voluptates nostrum enim.</p>
-        <div class="fotosregalos">
-            <a target="_blank" href="https://www.falabella.com/falabella-cl/product/14910785/Microondas-20-lt-Galanz-GLC0ZV20S5SB071/14910785"><img src="../img/micro.jpeg" alt=""></a>
-            <a target="_blank" href="https://www.falabella.com/falabella-cl/product/7042506/Cafetera-Utrotter-Espresso-Kaffeedeluxe/7042506"><img src="../img/7042506_1.jpeg" alt=""></a>
-            <a target="_blank" href="https://tottus.falabella.com/tottus-cl/product/110354371/wurden-robot-limpia-ventanas-wrb-glassbot-wurden-20457670/110354373"><img src="../img/vidrio.jpeg" alt=""></a>
-            <a target="_blank" href="https://www.falabella.com/falabella-cl/product/16137897/Olla-a-Presion-Secure-Compact-6L/16137898"><img src="../img/olla.jpeg" alt=""></a>
-            <a target="_blank" href="https://www.falabella.com/falabella-cl/product/16270928/Set-2-Almohadas-Americana-Memory-Max-Basic/16270928"><img src="../img/almohada_1.jpeg" alt=""></a>
-            <a target="_blank" href="https://www.falabella.com/falabella-cl/product/prod65220034/Bateria-De-Cocina-Tramontina-Antiadherente-38-Piezas-Ollas-Y-Sartenes-Loreto/881742865"><img src="../img/881742865_1.jpeg" alt=""></a>
-            <a target="_blank" href="https://sodimac.falabella.com/sodimac-cl/product/110327566/Espejo-redondo-metalico-dorado-71-cm./110327570"><img src="../img/espejo_02.jpeg" alt=""></a>
-        </div>
+        <h1 class="margentop">REGALOS</h1>
+        <h3 class=subtitulos>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, incidunt.</h3>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-6">
+                    <div class="parrafos card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="card-title">Microondas Samsung</h5>
+                        <img class="img-fluid" src="../img/micro.jpeg" alt="Microondas"></a>
+                        <a target="_blank" href="https://sodimac.falabella.com/sodimac-cl/product/115695046/Horno-microondas-digital-23-litros/115695064" class="btn botonmorado">Visita la página</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-6">
+                    <div class="parrafos card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="card-title">Cafetera</h5>
+                        <img class="img-fluid" src="../img/7042506_1.jpeg" alt="Cafetera"></a>
+                        <a target="_blank" href="https://www.falabella.com/falabella-cl/product/7042506/Cafetera-Utrotter-Espresso-Kaffeedeluxe/7042506" class="btn botonmorado">Visita la página</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-6">
+                    <div class="parrafos card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="card-title">Robot limpia vidrios</h5>
+                        <img class="img-fluid" src="../img/vidrio.jpeg" alt="RobotLimpiaVentana"></a>
+                        <a target="_blank" href="https://tottus.falabella.com/tottus-cl/product/110354371/wurden-robot-limpia-ventanas-wrb-glassbot-wurden-20457670/110354373" class="btn botonmorado">Visita la página</a>
+                    </div>    
+                </div>
+
+                <div class="col-lg-4 col-6">
+                    <div class="parrafos card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="card-title">Olla de presión</h5>
+                        <img class="img-fluid" src="../img/olla.jpeg" alt="OllaDePresion"></a>
+                        <a target="_blank" href="https://www.falabella.com/falabella-cl/product/16137897/Olla-a-Presion-Secure-Compact-6L/16137898" class="btn botonmorado">Visita la página</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                    <div class="parrafos card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="card-title">Almohadas memory max</h5>
+                        <img class="img-fluid" src="../img/almohada_1.jpeg" alt="ALmohadasComodas"></a>
+                        <a target="_blank" href="https://www.falabella.com/falabella-cl/product/16270928/Set-2-Almohadas-Americana-Memory-Max-Basic/16270928" class="btn botonmorado">Visita la página</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-6">
+                    <div class="parrafos card-body d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="card-title">Bateria de cocina</h5>
+                        <img class="img-fluid" src="../img/881742865_1.jpeg" alt="BateriaCocina"></a>
+                        <a target="_blank" href="https://www.falabella.com/falabella-cl/product/prod65220034/Bateria-De-Cocina-Tramontina-Antiadherente-38-Piezas-Ollas-Y-Sartenes-Loreto/881742764" class="btn botonmorado">Visita la página</a>
+                    </div>
+                </div>
+ 
     </main>
     <footer>
         <h3 class=subtitulos>Gracias por asistir!</h3>
     </footer>
-
-
-
 
 
 
