@@ -20,6 +20,11 @@ header {
     width: 100vw;
     margin: auto;
 }
+@media(max-width:576px){
+    .header-banner{
+        margin-top: 20px;
+    }
+}
      
 h1{
     font-family: 'Libre Baskerville', serif;
@@ -110,9 +115,10 @@ iframe{
     font-weight: bold;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .pruebarev {
-      flex-direction: column-reverse 
+      flex-direction: column-reverse;
+      gap: 0;
     }
   }
 
@@ -140,3 +146,4 @@ iframe{
  h5{
     padding: 10px;
  }
+
