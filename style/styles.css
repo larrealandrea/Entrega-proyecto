@@ -28,7 +28,9 @@ header {
      
 h1{
     font-family: 'Libre Baskerville', serif;
-    font-size: 500%;
+    font-size: 300%;
+    max-width: 100%;
+    word-wrap: break-word;
     text-align: center;
     color: rgb(36, 34, 34); 
     margin-top: 5%;
