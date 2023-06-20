@@ -85,21 +85,6 @@ footer{
     color: rgb(36, 34, 34)
 }
 
-.contenedor{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
-.centrado{
-    position: absolute;
-    bottom: 0;
-    margin:  20px;
-    color: rgb(255, 255, 255);
-    background-color: rgba(156, 151, 161, 0.5);
-    z-index: 0;   
-}
-
 .parrmar{
     margin-top: 30px;
 }
@@ -115,12 +100,6 @@ iframe{
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    .pruebarev {
-      flex-direction: column-reverse;
-      gap: 0;
-    }
-  }
 
 .img-chica{
     width: 50px;
@@ -147,3 +126,44 @@ iframe{
     padding: 10px;
  }
 
+/* Proovedores */
+.contenedor{
+    width: auto;
+    height: 100%;
+}
+
+.contenedor figure{
+    position: relative;
+    height: 50%;
+    width: auto;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:  rgba(217, 195, 236, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor figure:hover > .capa{
+    opacity: 2;
+    visibility: visible;
+    color: white;
+
+}
+
+
+ 
