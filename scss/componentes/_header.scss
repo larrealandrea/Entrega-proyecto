@@ -1,0 +1,11 @@
+header {
+    background-color: nth($colores, 5);
+    opacity: 90%;
+    position: fixed;
+    width: map-get($AltoAncho, ancho);
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}

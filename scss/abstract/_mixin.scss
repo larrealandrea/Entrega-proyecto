@@ -1,0 +1,16 @@
+@mixin misSubtitulos($pdd, $mar, $bord, $tam, $ali, $col){
+    padding: $pdd;
+    margin: $mar;
+    border: $bord;
+    font-size: $tam;
+    text-align: $ali;
+    color: $col;
+}
+
+@mixin misBotones( $bgc, $colo, $pad, $marg, $alin){
+    background-color: $bgc;
+    color: $colo;
+    padding: $pad;
+    margin: $marg;
+    text-align: $alin;
+}

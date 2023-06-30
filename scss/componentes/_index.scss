@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+        
+}
+
+body{
+    background-color: $bgc-principal;
+    font-family: $font-elegida; 
+    
+
+}
+
+h1{
+    font-family: $font-h1;
+    font-size: nth($tamanos, 1);
+    max-width: map-get($AltoAncho, ancho);
+    word-wrap: break-word;
+    text-align: center;
+    color: nth($colores, 1); 
+    margin-top: 5%;
+
+}
+
+h2{
+    text-align: center;
+    font-size: nth($tamanos, 2);
+    color: nth($colores, 1);
+}
+
+
+.margentop{
+    margin-top: 110px;
+ }
+
+.header-banner{
+    width: 100vw;
+    margin: auto;
+    @media(max-width:576px){
+        margin-top: 20%;
+    }
+}
+
+.subtitulos{
+    @include misSubtitulos (10px, 10px, 10px, 30px, center, rgb(36, 34, 34) )
+}
+
+.parrcenter{
+    text-align: center;
+    color:nth($colores, 1);
+}
+
+
+.botonmorado{
+    @include misBotones(rgb(71, 37, 71), white, 10px 20px, 20px auto, center);
+    width: 30%;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+
+    &:hover{
+        background-color:nth($colores, 3);
+        color: white;
+    
+    }
+}
+
+.parrmar{
+    margin-top: 30px;
+}
+
+.img-chica{
+    width: 50px;
+    height: 50px;
+}
+
+.orden-index{
+    @extend %orden;
+}

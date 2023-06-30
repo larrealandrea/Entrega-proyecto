@@ -1,0 +1,16 @@
+.navmia{
+    font-size: xx-large;
+}
+
+.colorhover{
+    color:  nth($colores, 1);
+    &:hover{
+        color: nth($colores, 3);
+
+    }
+    
+}
+
+.aquiestoy{
+    font-weight: bold;
+}

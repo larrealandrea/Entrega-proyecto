@@ -1,0 +1,182 @@
+.orden-card, .contenedor, .orden-img, .orden-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(248, 238, 248);
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 50px;
+  max-width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  color: rgb(36, 34, 34);
+  margin-top: 5%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(36, 34, 34);
+}
+
+.margentop {
+  margin-top: 110px;
+}
+
+.header-banner {
+  width: 100vw;
+  margin: auto;
+}
+@media (max-width: 576px) {
+  .header-banner {
+    margin-top: 20%;
+  }
+}
+
+.subtitulos {
+  padding: 10px;
+  margin: 10px;
+  border: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(36, 34, 34);
+}
+
+.parrcenter {
+  text-align: center;
+  color: rgb(36, 34, 34);
+}
+
+.botonmorado {
+  background-color: rgb(71, 37, 71);
+  color: white;
+  padding: 10px 20px;
+  margin: 20px auto;
+  text-align: center;
+  width: 30%;
+  display: block;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.botonmorado:hover {
+  background-color: rgb(95, 74, 95);
+  color: white;
+}
+
+.parrmar {
+  margin-top: 30px;
+}
+
+.img-chica {
+  width: 50px;
+  height: 50px;
+}
+
+.parrafos {
+  background-color: rgb(217, 195, 236);
+  text-align: center;
+  color: rgb(36, 34, 34);
+  width: 100%;
+  padding: 5px;
+  font-size: x-large;
+}
+
+iframe {
+  padding-top: 15px;
+}
+
+.col-lg-4 {
+  padding: 5px;
+}
+
+.contenedor {
+  width: auto;
+  height: 100%;
+}
+.contenedor figure {
+  position: relative;
+  height: 50%;
+  width: auto;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.contenedor figure:hover > .capa {
+  opacity: 2;
+  visibility: visible;
+  color: black;
+}
+.contenedor figure:hover > .capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.contenedor figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(217, 195, 236, 0.9);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+h5 {
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+}
+
+header {
+  background-color: rgb(228, 222, 222);
+  opacity: 90%;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+footer {
+  background-color: rgba(217, 195, 236, 0.9);
+  text-align: center;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+.navmia {
+  font-size: xx-large;
+}
+
+.colorhover {
+  color: rgb(36, 34, 34);
+}
+.colorhover:hover {
+  color: rgb(95, 74, 95);
+}
+
+.aquiestoy {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

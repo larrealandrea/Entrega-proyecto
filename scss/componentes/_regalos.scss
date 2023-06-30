@@ -1,0 +1,8 @@
+h5{
+    font-size: nth($tamanos, 4 );
+    padding: 10px;
+    display: block
+ }
+.orden-card{
+    @extend %orden;
+}
