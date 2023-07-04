@@ -1,47 +1,59 @@
 .contenedor{
+    @extend %orden;
+}
+
+
+.contenedor{
     width: auto;
     height: map-get($AltoAncho, alto);
-
+    
     figure{
         position: relative;
         height: 50%;
         width: auto;
         overflow: hidden;
         border-radius: 6px;
+
         &:hover > .capa{
             opacity: 2;
             visibility: visible;
-            color: black;
+            color: black
+        }
+
+        .capa{
+            @extend %orden;
+            position: absolute;
+            top: 0;
+            width: map-get($AltoAncho, ancho );
+            height: map-get($AltoAncho, alto );
+            background: nth($colores, 6);
+            transition: all 500ms ease-out;
+            opacity: 0;
+            visibility: hidden;
+            flex-direction: column;
+            text-align: center;
+
             h3{
                 margin-top: 70px;
                 margin-bottom: 15px;
-                font-weight: bold;
-            
-            }        
-        }
+            }
 
-        img{
-            width: map-get($AltoAncho, ancho);
-            height: map-get($AltoAncho, ancho);
-            transition: all 500ms ease-out;
+            img{
+                width: map-get($AltoAncho, ancho);
+                height: map-get($AltoAncho, ancho);
+                transition: all 500ms ease-out;
+            }
+
+            @media (max-width: 576px){
+                visibility: visible;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: end;
+                opacity: 3;
+                background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(71,37,71,0.5634628851540616) 91%, rgba(36,34,34,0.8183648459383753) 100%);
+            }
         }
-                
     }
-    
-}
-
-.capa{
-    position: absolute;
-    top: 0;
-    width: map-get($AltoAncho, ancho );
-    height: map-get($AltoAncho, alto );
-    background: nth($colores, 6);
-    transition: all 500ms ease-out;
-    opacity: 0;
-    visibility: hidden;
-    text-align: center;
-}
-
-.contenedor{
-    @extend %orden;
 }
