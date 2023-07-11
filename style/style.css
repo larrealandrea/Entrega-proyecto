@@ -152,6 +152,12 @@ iframe {
   }
 }
 
+@media (max-width: 576px) {
+  .tamanio {
+    font-size: 40px;
+  }
+}
+
 h4 {
   font-size: 20px;
   padding: 10px;
