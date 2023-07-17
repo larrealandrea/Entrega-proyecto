@@ -2,15 +2,16 @@ div{
     form{
         display: flex;
         padding: 5rem;
+        width: auto;
+        height: 50%;
+        padding: 5rem 20rem;
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
-        // @media (max-width: 576px){
-        //     margin: auto;
-        //     padding: auto;
-        //     width: 20rem;
-        //     height: 20rem;
-        // }
+        @media (max-width:922px){
+            padding: 1rem;
+        }
+
     }
 }
 
