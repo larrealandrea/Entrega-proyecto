@@ -85,6 +85,13 @@ h2 {
   height: 50px;
 }
 
+.asistencia {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  margin-top: 80px;
+}
+
 .parrafos {
   background-color: rgb(217, 195, 236);
   text-align: center;
@@ -182,6 +189,12 @@ footer {
   padding: 30px;
 }
 
+footer div a img {
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+}
+
 .navmia {
   font-size: xx-large;
 }
@@ -195,6 +208,19 @@ footer {
 
 .aquiestoy {
   font-weight: bold;
+}
+
+div form {
+  display: flex;
+  padding: 5rem;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.colormio:checked {
+  background-color: rgb(71, 37, 71);
+  border-color: rgb(71, 37, 71) !important;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+div{
+    form{
+        display: flex;
+        padding: 5rem;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        // @media (max-width: 576px){
+        //     margin: auto;
+        //     padding: auto;
+        //     width: 20rem;
+        //     height: 20rem;
+        // }
+    }
+}
+
+.colormio:checked{
+    background-color: nth($colores, 2);
+    border-color: nth($colores, 2) !important; 
+}

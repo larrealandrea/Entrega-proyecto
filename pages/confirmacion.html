@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta descripcion -->
+    <meta name="description" content="Confirmanos tu asistencia ingresando a este formulario" >
+    <!-- meta keywords -->
+    <meta name="keywords" content="Confirmar asistencia, fiesta, compromiso, asistir">
+    <title>Confirmanos tu asistencia - Andrea y Luis</title>
+    <link rel="shortcut icon" href="../img/L+A Icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <header id="cabeza">
+        <nav class="navbar navbar-expand-lg navmia w-100">
+            <div class="container-fluid navcolor">
+              <a class="navbar-brand" href="../index.html"><img src="../img/L+Apequeñologo.png" alt="logo chico"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                  <a class="nav-link colorhover" href="./nosotros.html">Nosotros</a>
+                  <a class="nav-link colorhover" href="./galeria.html">Galeria</a>
+                  <a class="nav-link colorhover" href="./proveedores.html">Proveedores</a>
+                  <a class="nav-link colorhover" href="./regalos.html">Regalos</a>
+                  <a class="nav-link colorhover aquiestoy" href="./confirmacion.html">Confirma tu asistencia</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <h1 data-aos="flip-up" class="margentop">CONFIRMA TU ASISTENCIA</h1>
+        <div>
+            <form action="confirmacion.php" method="get">
+                <label for="nombre" name="Nombre">Nombre y Apellido:</label><br>
+                <input type="text" name="Nombre"><br>
+                <label for="Email" name="Correo">Email:</label><br>
+                <input type="text" name="Correo"><br>
+                <div class="form-check">
+                  <input class="form-check-input colormio" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Confirmo mi asistencia
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input colormio" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    No podré asistir
+                  </label>
+                </div>
+                <label for="texto" name="texto">Tienes alguna alergia alimenticia? Cuéntanos!</label><br>
+                <textarea name="coemntarios" id="" cols="30" rows="5"></textarea><br>
+                <input class="botonmorado" type="submit"  value="Enviar" >
+              </form>
+        </div>
+    </main>
+
+
+
+
+
+
+
+<!-- footer -->
+<footer>
+    <h3 class=subtitulos>Gracias por asistir!</h3>
+    <div>
+        <a target="_blank" href="https://wa.link/rdxkgp"><img src="../img/whatsappLogo.png" alt="logo de whatsapp"></a>
+        <a target="_blank" href="https://www.instagram.com/matrimonioandreayluis/"><img src="../img/logotipoInstagram.png" alt="Logo de instagram"></a>
+        <a target="_blank" href="https://www.facebook.com/"><img src="../img/facebooklogo.png" alt="logo de facebook"></a>
+      </div>
+</footer>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
